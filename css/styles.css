@@ -284,19 +284,19 @@ img {
 }
 
 .icon-antenna::before {
-    background-image: url("../images/icon/full/antenna.svg");
+    background-image: url("../images/icon/about/antenna.svg");
 }
 
 .icon-clock::before {
-    background-image: url("../images/icon/full/clock.svg");
+    background-image: url("../images/icon/about/clock.svg");
 }
 
 .icon-diagram::before {
-    background-image: url("../images/icon/full/diagram.svg");
+    background-image: url("../images/icon/about/diagram.svg");
 }
 
 .icon-astronaut::before {
-    background-image: url("../images/icon/full/astronaut.svg");
+    background-image: url("../images/icon/about/astronaut.svg");
 }
 
 .about-list .item:nth-child(4n) {
