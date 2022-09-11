@@ -342,7 +342,7 @@
     <!--Підвал проекту-->
     <footer class="footer">
         <div class="container footer-contacts-social">
-            <div>
+            <div class="footer-logo-contacts">
                 <a class="logo-footer" href="./index.html">
                     <span class="part-logo">Web</span>Studio</a>
                 <address>
@@ -358,36 +358,55 @@
             </div>
             <div class="social-footer">
                 <p class="social-footer-text">приєднуйтесь</p>
-                            <ul class="list social-list">
-                                <li class="social-list-item">
-                                    <a href="#" class="social-list-link">
-                                        <svg aria-label="Іконка інстаграму" class="icon-instagram social-list-icon">
-                                            <use href="./images/icon/sprite.svg#icon-instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-list-item">
-                                    <a href="#" class="social-list-link">
-                                        <svg aria-label="Іконка твіттеру" class="icon-twitter social-list-icon">
-                                            <use href="./images/icon/sprite.svg#icon-twitter"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-list-item">
-                                    <a href="#" class="social-list-link">
-                                        <svg aria-label="Іконка фейсбуку" class="icon-facebook social-list-icon">
-                                            <use href="./images/icon/sprite.svg#icon-facebook"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="social-list-item">
-                                    <a href="#" class="social-list-link">
-                                        <svg aria-label="Іконка лінкедіну" class="icon-linkedin social-list-icon">
-                                            <use href="./images/icon/sprite.svg#icon-linkedin"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                <ul class="list social-list">
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg aria-label="Іконка інстаграму" class="icon-instagram social-list-icon">
+                                <use href="./images/icon/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg aria-label="Іконка твіттеру" class="icon-twitter social-list-icon">
+                                <use href="./images/icon/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg aria-label="Іконка фейсбуку" class="icon-facebook social-list-icon">
+                                <use href="./images/icon/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-list-link">
+                            <svg aria-label="Іконка лінкедіну" class="icon-linkedin social-list-icon">
+                                <use href="./images/icon/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <p class="footer-form-title">Підпишіться на розсилку</p>
+                <form class="footer-form-subscribe">
+                    <label class="footer-form-field">
+                        <input
+                        type="email" 
+                        name="user_email" 
+                        class="footer-form-input"
+                        placeholder="E-mail"
+                        required>
+                    </label>
+                    <button type="submit" class="footer-form-submit">
+                        <span>Підписатися</span>                        
+                        <svg class="footer-form-submit-icon" width="24" height="24">
+                            <use aria-label="іконка відправки листа" href="./images/icon/sprite.svg#icon-send"></use>
+                        </svg>                        
+                    </button>
+                </form>
             </div>
         </div>
     </footer>
@@ -454,13 +473,10 @@
                     class="modal-form-check visually-hidden" 
                     name="user_policy"
                     required>
-                    <svg aria-label="іконка вибору" class="modal-form-own-check">
+                    <svg aria-label="іконка вибору" class="modal-form-own-check" width="16" height="15">
                         <use class="modal-form-check-icon" href="./images/icon/sprite.svg#icon-check"></use>
-                    </svg>
-                    <span class="modal-form-checkbox-policy">
-                        Погоджуюся з розсилкою та приймаю 
-                        <a href="" class="modal-form-checkbox-policy-link">
-                        Умови договору</a>
+                    </svg>                    
+                    <span class="modal-form-checkbox-policy">Погоджуюся з розсилкою та приймаю&nbsp<a href="" class="modal-form-checkbox-policy-link">Умови договору</a>
                     </span> 
                 </label>
                 <button type="submit" class="modal-form-submit">Відправити</button>
